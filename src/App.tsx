@@ -1,17 +1,16 @@
-import './App.css'
+import './App.css';
 
-import '@mantine/core/styles.css'
+import '@mantine/core/styles.css';
 
-import { MantineProvider } from '@mantine/core'
+import { MantineProvider } from '@mantine/core';
+import Landing from './pages/Landing/Landing.tsx';
 
 function App() {
     return (
         <MantineProvider>
-            <p className="under-construction">
-                Under construction
-            </p>
+            <Landing />
         </MantineProvider>
-    )
+    );
 }
 
-export default App
+export default App;

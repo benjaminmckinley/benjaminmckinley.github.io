@@ -1,0 +1,14 @@
+{
+    "experiences": [
+        {
+            "companyName": "NCR/NCR Voyix",
+            "role": "Software Engineer II",
+            "otherRoles": ["Software Engineer I", "Software Engineer Intern"],
+            "description": "",
+            "startDateMonth": "May 2021",
+            "endDateMonth": "Present",
+            "tools": ["React"],
+            "link": "https://www.ncrvoyix.com/"
+        }
+    ]
+}
