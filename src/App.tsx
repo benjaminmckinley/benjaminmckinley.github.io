@@ -2,12 +2,14 @@ import './App.css';
 
 import '@mantine/core/styles.css';
 
-import { MantineProvider } from '@mantine/core';
+import { createTheme, MantineProvider } from '@mantine/core';
 import Landing from './pages/Landing/Landing.tsx';
+
+const theme = createTheme({});
 
 function App() {
     return (
-        <MantineProvider>
+        <MantineProvider theme={theme}>
             <Landing />
         </MantineProvider>
     );
