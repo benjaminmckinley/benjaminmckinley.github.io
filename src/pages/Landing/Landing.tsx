@@ -21,7 +21,10 @@ const Landing = () => {
                     </Grid.Col>
                     <Grid.Col span={8}>
                         <Text ta="left" style={{ color: 'white' }}>
-                            In 2014, I started developing games for my friends in Lua. A hobby spiraled into a passion
+                            In 2014, I started developing games for my friends in <a href="https://love2d.org/"
+                                                                                     target="_blank"
+                                                                                     style={{ cursor: 'url("love_logo.png"), auto' }}>Lua.</a> A
+                            hobby spiraled into a passion
                             and a few years later I am helping build enterprise software at a large corporation.
                             <Space />
                             My professional focuses have been in Developer Experience, Identity Management, and API

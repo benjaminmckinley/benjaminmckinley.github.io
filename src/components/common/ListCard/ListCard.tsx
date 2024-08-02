@@ -10,7 +10,8 @@ export type ListCardProps = {
 const ListCard = ({ imagePath, title, description, chips }: ListCardProps) => {
     return <Card
         style={{
-            backgroundColor: 'lightblue',
+            backgroundColor: '#003566',
+            color: 'white',
         }}
     >
         <Group>
@@ -19,7 +20,7 @@ const ListCard = ({ imagePath, title, description, chips }: ListCardProps) => {
                 src={imagePath}
                 alt={`${title} graphic`}
             />
-            <Stack style={{ width: '360px', }}>
+            <Stack style={{ width: '360px' }}>
                 <Title ta="left" order={4}>{title}</Title>
                 <Text
                     ta="left"
@@ -29,7 +30,7 @@ const ListCard = ({ imagePath, title, description, chips }: ListCardProps) => {
                     style={{
                         height: '116px',
                         fontSize: '12px',
-                        overflowY: 'scroll'
+                        overflowY: 'scroll',
                     }}
                 >
                     {description}
