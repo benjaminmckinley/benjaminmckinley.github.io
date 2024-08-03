@@ -6,6 +6,6 @@
     "bracketSpacing": true,
     "endOfLine": "auto",
     "printWidth": 100,
-    "bracketSameLine": false,
-    "jsxBracketSameLine": true
+    "htmlWhitespaceSensitivity": "ignore",
+    "bracketSameLine": true
 }

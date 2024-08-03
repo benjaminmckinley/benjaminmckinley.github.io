@@ -1,0 +1,11 @@
+.list-card {
+    &:hover {
+        background-color: color-mix(in srgb, var(--palette-color-highlight) 45%, transparent);
+        box-shadow: 0 2px 4px var(--palette-color-dark);
+        border-top: color-mix(in hsl, white, var(--palette-color-highlight)) 1px solid;
+    }
+
+    background: transparent;
+
+    color: white;
+}

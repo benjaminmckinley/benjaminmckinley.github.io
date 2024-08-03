@@ -1,17 +1,23 @@
 {
-  "projects": [
-    {
-      "title": "Test",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-      "date": "2023",
-      "pinned": true,
-      "company": "Company B",
-      "tools": [
-        "React",
-        ".NET"
-      ],
-      "link": "https://cloud.google.com/",
-      "imagePath": "gcp_screenshot.png"
-    }
-  ]
+    "projects": [
+        {
+            "title": "Flapjack",
+            "description": "Modern git branch stacking assistant CLI tool. Built with Charm. Manage all pull requests you need to review in one place and never let code get stale again. Split features into branches to make reviewing more efficient and catch bugs sooner.",
+            "date": "2024",
+            "pinned": true,
+            "company": null,
+            "tools": ["Go", "Git"],
+            "link": "https://cloud.google.com/",
+            "imagePath": "gcp_screenshot.png"
+        },
+        {
+            "title": "Test",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "date": "2023",
+            "pinned": true,
+            "company": "Company B",
+            "tools": ["React", ".NET"],
+            "imagePath": "gcp_screenshot.png"
+        }
+    ]
 }

@@ -8,13 +8,24 @@ const ProjectList = () => {
 
     return (
         <Stack gap={2}>
-            <Title order={3} style={{ color: 'white' }}>Highlighted Projects</Title>
+            <Title order={3} style={{ color: 'var(--palette-text-primary)' }}>
+                Highlighted Projects
+            </Title>
             <List listStyleType="none">
                 {projects.map((project) => {
                     return (
-                        <ListItem p={4}>
-                            <ListCard title={project.title} description={project.description} chips={project.tools}
-                                      imagePath={project.imagePath} />
+                        <ListItem key={project.title} p={4}>
+                            <ListCard
+                                title={
+                                    project.company
+                                        ? `${project.title} · ${project.company}`
+                                        : project.title
+                                }
+                                description={project.description}
+                                chips={project.tools}
+                                imagePath={project.imagePath}
+                                link={project.link}
+                            />
                         </ListItem>
                     );
                 })}

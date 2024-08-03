@@ -5,7 +5,8 @@
 
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
+
+    background-color: #001d3d;
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -70,5 +71,26 @@ button:focus-visible {
 
     button {
         background-color: #f9f9f9;
+    }
+}
+
+/* effect for text shimmer */
+@keyframes shimmer {
+    0% {
+        font-weight: normal;
+    }
+    50% {
+        font-weight: bold;
+    }
+    100% {
+        font-weight: normal;
+    }
+}
+
+.shimmer-hover {
+    &:hover {
+        display: inline-block;
+        animation: shimmer 1s infinite;
+
     }
 }
