@@ -1,8 +1,9 @@
 import { Stack, Text, Title } from '@mantine/core';
 import ProjectList from '../Projects/ProjectList/ProjectList.tsx';
-import SocialMediaLinks from '../SocialMediaLinks/SocialMediaLinks.tsx';
 import './Landing.css';
 import NavigationBar from '../../components/NavigationBar/NavigationBar.tsx';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import SocialMediaLinks from '../../components/common/SocialMediaLinks/SocialMediaLinks.tsx';
 
 const Landing = () => {
 
@@ -55,7 +56,7 @@ const Landing = () => {
 };
 
 const Arrow = () => {
-    return <></>;
+    return <FontAwesomeIcon icon="fa-solid fa-square-arrow-up-right" />;
 };
 
 export default Landing;

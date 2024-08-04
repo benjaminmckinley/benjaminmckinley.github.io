@@ -13,6 +13,7 @@
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^6.6.0",
         "@fortawesome/free-brands-svg-icons": "^6.6.0",
+        "@fortawesome/free-solid-svg-icons": "^6.6.0",
         "@fortawesome/react-fontawesome": "github:fortawesome/react-fontawesome",
         "@mantine/carousel": "^7.11.2",
         "@mantine/code-highlight": "^7.11.2",

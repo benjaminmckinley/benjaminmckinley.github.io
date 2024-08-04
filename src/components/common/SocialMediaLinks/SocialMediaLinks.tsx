@@ -16,19 +16,26 @@ const SocialMediaLinks = () => {
                 link="https://github.com/benjaminmckinley/"
                 icon={['fab', 'goodreads']}
             />
+            <ResumeButton />
         </Group>
     );
 };
 
 const SocialMediaButton = ({
-    link,
-    ...props
-}: { link: string } & Omit<FontAwesomeIconProps, 'color'>) => {
+                               link,
+                               ...props
+                           }: { link: string } & Omit<FontAwesomeIconProps, 'color'>) => {
     return (
         <a href={link} target="_blank" referrerPolicy="no-referrer">
-            <FontAwesomeIcon size="lg" color="white" {...props} />
+            <FontAwesomeIcon size="lg" color="white" {...props} sx={{ ':hover': {
+                color: 'grey'
+                }}} />
         </a>
     );
+};
+
+const ResumeButton = () => {
+    return <span>Resume <FontAwesomeIcon icon="fa-solid fa-cloud-arrow-down" /></span>;
 };
 
 export default SocialMediaLinks;
